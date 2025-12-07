@@ -1,0 +1,4 @@
+pyautogen==0.1.14
+openai==0.28.1
+pandas
+python-dotenv
