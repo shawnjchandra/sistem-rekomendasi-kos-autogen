@@ -1,2 +1,4 @@
 BASE_URL=https://models.github.ai/inference
 OPENAI_API_KEY=change-me
+LOCAL_LLAMA_URL=http://localhost:11434/v1
+LOCAL_LLAMA_MODEL=llama3
