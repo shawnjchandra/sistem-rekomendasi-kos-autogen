@@ -1,11 +1,6 @@
 dataset_schema = {
     "name": "filter_data",
-    "description" : """WAJIB gunakan fungsi ini untuk mencari program studi dari database universitas.
-    
-    Fungsi ini mengakses database lengkap program pascasarjana dari seluruh dunia.
-    Tanpa memanggil fungsi ini, Anda TIDAK bisa memberikan rekomendasi program yang akurat.
-    
-    Filter berdasarkan: IPK minimum, bidang studi, negara, dan tujuan karier.""",
+    "description" : "Mencari program studi dari database berdasarkan IPK, bidang, negara, dan tujuan karier.",
     "parameters" : {
         "type": "object",
         "properties": {
@@ -27,7 +22,7 @@ dataset_schema = {
             }
             
         },
-        "required": []
+        "required": ["min_ipk", "bidang", "negara"]
     }
     
 }

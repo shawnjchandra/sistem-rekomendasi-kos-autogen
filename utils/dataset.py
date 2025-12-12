@@ -1,3 +1,4 @@
+import json
 from typing import List, Optional
 import pandas as pd
 import csv
@@ -29,17 +30,6 @@ class DatasetAgent:
             if min_ipk is not None:
                 df = df[df['min_ipk'] <= min_ipk]
                 
-            # if bidang is not None:
-            #     df = df[df['bidang'] == bidang]
-                
-            # if tujuan_karier is not None and len(tujuan_karier) > 0:
-            #     keywords = [k.strip() for k in tujuan_karier.split(',') if k.strip()]
-            #     if keywords:
-            #         mask = False
-            #         for keyword in keywords:
-            #             mask |= df['fokus_riset'].str.contains(keyword, case=False, na=False)
-            #         df = df[mask]
-                    
             if bidang is not None:
                 bidang_list = [b.strip() for b in bidang.split(',') if b.strip()]
                 
@@ -71,4 +61,22 @@ class DatasetAgent:
         except FileNotFoundError:
             print("Tidak ada")
             
+    def search_program_wrapper(self, min_ipk, bidang, negara, tujuan_karier):
+        """
+        Fungsi wrapper untuk memanggil dataset Anda.
+        """
+        try:
+            raw_result = self.filter_data(
+                min_ipk=float(min_ipk), 
+                bidang=bidang, 
+                negara=negara, 
+                tujuan_karier=tujuan_karier
+            )
+
+            if isinstance(raw_result, (list, dict)):
+                return json.dumps(raw_result, indent=2)
+            return str(raw_result)
+        except Exception as e:
+            return f"Error accessing dataset: {str(e)}"
+                
             
