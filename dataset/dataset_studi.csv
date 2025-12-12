@@ -1,0 +1,101 @@
+id,nama_program,universitas,negara,bidang,min_ipk,fokus_riset
+1,M.Sc. in Modelling and Simulation,Technische Universität Delft,Netherlands,Computer Science,3.0,Multi-Agent Systems;Digital Twin;Distributed Systems
+2,Master of Computational Science,University of Amsterdam,Netherlands,Computational Science,3.2,Complex Systems;High Performance Computing;Simulation
+3,Magister Informatika,Institut Teknologi Bandung,Indonesia,Informatics,3.0,Simulation Games;Software Architecture;AI
+4,M.S. in Robotics,Carnegie Mellon University,USA,Robotics,3.8,Multi-Agent Path Finding;Swarm Intelligence;Computer Vision
+5,Master in Game Technology,Breda University of Applied Sciences,Netherlands,Game Development,2.8,Game Physics;Real-time Simulation;Graphics
+6,M.Sc. Artificial Intelligence,University of Edinburgh,UK,Computer Science,3.5,Multi-Agent Systems;Machine Learning;Natural Language Processing
+7,Master of Computing (Artificial Intelligence),National University of Singapore,Singapore,Computer Science,3.5,Path Finding Algorithms;Robotics;Decision Making
+8,M.Sc. in Computer Science,ETH Zurich,Switzerland,Computer Science,3.7,Distributed Systems;Network Security;Algorithm Engineering
+9,Magister Ilmu Komputer,Universitas Indonesia,Indonesia,Computer Science,3.0,Data Mining;Information Retrieval;Network Engineering
+10,M.Sc. in Simulation Sciences,RWTH Aachen University,Germany,Computational Science,3.2,HPC;Numerical Simulation;Physics Engine
+11,Master of Science in Computer Science,University of Southern California,USA,Computer Science,3.5,Game Development;Multi-Agent Systems;Virtual Reality
+12,M.Sc. in Autonomous Systems,KTH Royal Institute of Technology,Sweden,Robotics,3.3,Control Systems;Path Planning;Drones
+13,Master in Digital Games,University of Malta,Malta,Game Development,2.7,Game AI;Procedural Generation;Player Modelling
+14,M.Sc. Network Services and Systems,KTH Royal Institute of Technology,Sweden,Network Engineering,3.2,Cloud Computing;IoT;5G Networks
+15,Magister Teknik Elektro (Telematika),Institut Teknologi Sepuluh Nopember,Indonesia,Engineering,2.9,Wireless Sensor Networks;IoT;Smart City
+16,M.Sc. in Logic and Computation,TU Wien,Austria,Computer Science,3.1,Formal Methods;Verification;Multi-Agent Logic
+17,Master of Information Technology,University of Melbourne,Australia,Information Technology,3.0,Distributed Computing;Cybersecurity;Human-Computer Interaction
+18,M.Sc. in Informatics,Technical University of Munich,Germany,Informatics,3.4,Robotics;Scientific Computing;Computer Vision
+19,PhD in Computer Science (Multi-Agent Systems),University of Oxford,UK,Computer Science,3.8,Cooperative AI;Game Theory;MAPF
+20,M.S. in Computer Science (Game Dev),University of Utah,USA,Game Development,3.2,Game Engine Architecture;Simulation;3D Math
+21,Master of Engineering in CS,University of Tsukuba,Japan,Computer Science,3.0,Soft Computing;Artificial Life;Evolutionary Algorithms
+22,M.Sc. Complex Systems Modelling,King's College London,UK,Computational Science,3.3,Network Theory;Agent-Based Modelling;Dynamics
+23,Master in High Performance Computing,SISSA/ICTP,Italy,Computational Science,3.0,Parallel Computing;Fluid Dynamics;Astrophysics Simulation
+24,Magister Teknologi Informasi,Universitas Gadjah Mada,Indonesia,Information Technology,3.0,E-Government;Smart Systems;Software Engineering
+25,M.Sc. in Cyber-Physical Systems,Northeastern University,USA,Engineering,3.2,Embedded Systems;Robotics;Real-time Control
+26,Master of Data Science,Monash University,Australia,Data Science,3.0,Big Data;Predictive Modelling;Optimization
+27,M.Sc. in Software Engineering,University of Gothenburg,Sweden,Software Engineering,3.0,DevOps;Software Architecture;Model-Driven Engineering
+28,M.Sc. in Computer Games,Queen Mary University of London,UK,Game Development,3.1,AI for Games;Computer Graphics;Physics Simulation
+29,M.S. in Computer Engineering,Georgia Tech,USA,Engineering,3.5,Computer Networks;VLSI;Distributed Systems
+30,Master of Science in Artificial Intelligence,Nanyang Technological University,Singapore,Computer Science,3.5,Deep Learning;Multi-Agent Systems;Cognitive Systems
+31,Magister Informatika,Universitas Binus,Indonesia,Informatics,2.8,Applied AI;Business Intelligence;Cloud Technology
+32,M.Sc. in Systems and Control,TU Delft,Netherlands,Engineering,3.3,Control Theory;Robotics;Optimization
+33,M.Sc. in Operations Research,Columbia University,USA,Industrial Engineering,3.6,Logistics;Simulation;Stochastic Models
+34,Master in Computer Vision & Robotics,University of Burgundy,France,Robotics,3.1,3D Reconstruction;Motion Planning;Visual Servoing
+35,M.Sc. in Distributed Systems Engineering,TU Dresden,Germany,Computer Science,3.0,Cloud Computing;Fault Tolerance;Blockchain
+36,Master of Computer Science,University of Toronto,Canada,Computer Science,3.7,Machine Learning;Theory of Computation;Graphics
+37,M.Sc. in Games, IT University of Copenhagen,Denmark,Game Development,3.0,Game Design;Data Analysis;Playware
+38,M.Sc. in Transport Systems,Imperial College London,UK,Engineering,3.4,Traffic Simulation;Transport Modelling;Logistics
+39,Magister Teknik Informatika,Universitas Telkom,Indonesia,Informatics,2.9,Forensics;Network Security;Data Science
+40,PhD in Robotics and Autonomous Systems,Bristol Robotics Laboratory,UK,Robotics,3.6,Swarm Robotics;Soft Robotics;HRI
+41,M.S. in Computational Design,Carnegie Mellon University,USA,Architecture,3.3,Generative Design;Digital Fabrication;Simulation
+42,Master of Information Systems,KAIST,South Korea,Information Systems,3.4,Process Mining;Smart Factory;Decision Support
+43,M.Sc. in Industrial Mathematics,University of Kaiserslautern,Germany,Mathematics,3.0,Optimization;Numerical Methods;Supply Chain
+44,Master in Artificial Intelligence,KU Leuven,Belgium,Computer Science,3.2,Knowledge Representation;Uncertainty Reasoning;Data Mining
+45,M.Sc. in Internet of Things,Royal Holloway University,UK,Engineering,3.0,Sensor Networks;Edge Computing;Security
+46,Magister Sistem Informasi,Universitas Diponegoro,Indonesia,Information Systems,2.9,Enterprise Systems;IT Governance;Database
+47,M.Sc. in Computational Social Science,Linköping University,Sweden,Social Science,3.1,Agent-Based Modelling;Social Network Analysis;Statistics
+48,M.S. in Computer Science (Networking),North Carolina State University,USA,Computer Science,3.2,Network Architecture;SDN;Optical Networks
+49,Master of Science in Simulation and Visualization,Norwegian University of Science and Technology,Norway,Computer Science,3.1,Medical Visualization;Virtual Reality;Augmented Reality
+50,M.Sc. in Cognitive Systems,University of Potsdam,Germany,Computer Science,3.0,Computational Linguistics;Reasoning;Perception
+51,M.Sc. in Artificial Intelligence for Games,Falmouth University,UK,Game Development,2.8,Pathfinding;Behavior Trees;Genetic Algorithms
+52,M.S. in Operations Research,Georgia Tech,USA,Industrial Engineering,3.5,Discrete Event Simulation;Supply Chain;Inventory Theory
+53,Magister Ilmu Komputer,IPB University,Indonesia,Computer Science,3.0,Computational Biology;Agro-Informatics;Network Analysis
+54,M.Sc. in Interactive Media,University of Limerick,Ireland,Media,2.9,UX Design;Interaction Design;Prototyping
+55,Master of Computer Science,University of Malaya,Malaysia,Computer Science,3.0,Cybersecurity;Software Engineering;Grid Computing
+56,M.Sc. in Dependable Software Systems,University of St Andrews,UK,Computer Science,3.4,Formal Verification;Constraint Programming;Concurrency
+57,PhD in Multi-Agent Systems,University of Liverpool,UK,Computer Science,3.6,Auction Theory;Argumentation;Coalition Formation
+58,M.S. in Electrical and Computer Engineering,Purdue University,USA,Engineering,3.3,Nanotechnology;Power Systems;Communication Networks
+59,Master in Logistics and Supply Chain,Rotterdam School of Management,Netherlands,Business,3.2,Warehouse Simulation;Transport Optimization;Operations
+60,M.Sc. in Game Engineering,Newcastle University,UK,Game Development,3.0,Graphics Pipeline;C++ Optimization;Physics
+61,Magister Teknik Elektro,Universitas Hasanuddin,Indonesia,Engineering,2.8,Power Systems;Control;Telecommunication
+62,M.Sc. in Bioinformatics,University of Copenhagen,Denmark,Bioinformatics,3.1,Protein Folding;Sequence Analysis;Biological Networks
+63,Master of Science in Information Security,Carnegie Mellon University,USA,Information Security,3.6,Cryptography;Network Defense;Ethical Hacking
+64,M.Sc. in Cloud Computing,National College of Ireland,Ireland,Computer Science,2.9,Virtualization;Microservices;AWS
+65,Master of Applied Computing,Wilfrid Laurier University,Canada,Computer Science,3.0,Mobile Computing;Data Mining;Enterprise Computing
+66,M.Sc. in Systems Engineering,University of Maryland,USA,Engineering,3.2,Model-Based Systems Engineering;Reliability;Risk Analysis
+67,Magister Teknik Informatika,Universitas Atma Jaya Yogyakarta,Indonesia,Informatics,2.8,Mobile Application;Web Development;Multimedia
+68,M.Sc. in Human-Computer Interaction,UCL,UK,Computer Science,3.4,Usability Testing;Interface Design;Cognitive Psychology
+69,M.S. in Computer Graphics,Cornell University,USA,Computer Science,3.7,Rendering;Animation;Computational Photography
+70,Master of Science in Robotics,University of Pennsylvania,USA,Robotics,3.8,Manipulation;Locomotion;Haptics
+71,M.Sc. in Web Engineering,Chemnitz University of Technology,Germany,Computer Science,2.9,Web of Things;Semantic Web;Service Engineering
+72,M.Sc. in Applied Mathematics,University of Twente,Netherlands,Mathematics,3.1,Systems Theory;Mathematical Biology;Queueing Theory
+73,Magister Manajemen Sistem Informasi,Universitas Gunadarma,Indonesia,Information Systems,2.8,Project Management;E-Business;CRM
+74,M.Sc. in Computational Engineering,University of Erlangen-Nuremberg,Germany,Engineering,3.1,Finite Element Method;Fluid Mechanics;Material Simulation
+75,Master of Information Technology (Networks),Queensland University of Technology,Australia,Information Technology,3.0,Network Planning;Wireless Communications;Network Administration
+76,M.Sc. in Entertainment Technology,Carnegie Mellon University,USA,Game Development,3.4,Interactive Storytelling;Virtual Worlds;Themed Entertainment
+77,PhD in Automated Planning,King's College London,UK,Computer Science,3.6,Planning Domain Definition Language;Heuristic Search;Scheduling
+78,M.Sc. in Computer Science,University of Helsinki,Finland,Computer Science,3.2,Algorithms;Distributed Systems;Data Compression
+79,Master of Engineering Science,UNSW Sydney,Australia,Engineering,3.1,Signal Processing;Control Systems;Telecommunications
+80,Magister Teknik,Universitas Brawijaya,Indonesia,Engineering,2.9,Water Resources;Structural Engineering;Transportation
+81,M.Sc. in Intelligent Systems,University of Sussex,UK,Computer Science,3.0,Adaptive Systems;Evolutionary Robotics;Neural Networks
+82,M.S. in Computer Science,University of California San Diego,USA,Computer Science,3.6,Bioinformatics;Computer Architecture;Databases
+83,Master in Cyber Security,Tallinn University of Technology,Estonia,Computer Science,3.0,Malware Analysis;Digital Forensics;Cryptography
+84,M.Sc. in Scientific Computing,Uppsala University,Sweden,Computational Science,3.1,High Performance Computing;Parallel Algorithms;Data Analysis
+85,Magister Ilmu Komputer,Universitas Sumatera Utara,Indonesia,Computer Science,2.8,Image Processing;Expert Systems;Decision Support
+86,M.Sc. in Smart Cities and Urban Analytics,UCL,UK,Urban Planning,3.3,GIS;Urban Simulation;Spatial Analysis
+87,M.S. in Game Design,New York University,USA,Game Development,3.3,Game Studies;Level Design;Indie Development
+88,Master of Engineering (Computer),RMIT University,Australia,Engineering,3.0,Embedded Systems;FPGA;Network Design
+89,M.Sc. in Mathematical Modelling,University of Limerick,Ireland,Mathematics,3.0,Differential Equations;Industrial Maths;Perturbation Theory
+90,PhD in Distributed AI,University of Southampton,UK,Computer Science,3.6,Agent-Based Computing;Trust and Reputation;Game Theory
+91,Magister Teknik Informatika,Universitas Udayana,Indonesia,Informatics,2.9,Tourism Informatics;Geographic Information Systems;Information Security
+92,M.Sc. in Geoinformatics,University of Muenster,Germany,Geosciences,3.0,Spatial Databases;Remote Sensing;Cartography
+93,Master of Computing,Australian National University,Australia,Computer Science,3.4,Formal Methods;Logic;Algorithms
+94,M.S. in Network Engineering,University of Colorado Boulder,USA,Engineering,3.1,Network Operations;Wireless LANs;IP Routing
+95,M.Sc. in Quantum Computing,University of Warsaw,Poland,Physics,3.5,Quantum Algorithms;Quantum Information;Theoretical Physics
+96,Magister Informatika Medis,Universitas Gadjah Mada,Indonesia,Health Informatics,3.0,Electronic Health Records;Telemedicine;Biostatistics
+97,M.Sc. in Advanced Computer Science,University of Manchester,UK,Computer Science,3.3,Ontologies;Semantic Web;Automated Reasoning
+98,Master of Science in Statistics,National Taiwan University,Taiwan,Statistics,3.2,Bayesian Inference;Statistical Computing;Time Series
+99,M.Sc. in Autonomous Vehicle Engineering,Technische Hochschule Ingolstadt,Germany,Engineering,3.1,Sensor Fusion;Automotive Ethernet;Functional Safety
+100,PhD in Swarm Intelligence,Université libre de Bruxelles,Belgium,Computer Science,3.5,Swarm Robotics;Collective Behavior;Self-Organization
