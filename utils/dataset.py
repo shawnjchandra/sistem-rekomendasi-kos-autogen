@@ -1,7 +1,6 @@
 import json
 from typing import List, Optional
 import pandas as pd
-import csv
 import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -43,7 +42,7 @@ class DatasetAgent:
                         mask |= combined
                     
                     df = df[mask]
-            
+                    
             if negara is not None:
                 negara_list = [n.strip() for n in negara.split(',') if n.strip()]
                 if negara_list:
@@ -57,7 +56,6 @@ class DatasetAgent:
      
             return df.to_dict('records') # type: ignore
         
-            
         except FileNotFoundError:
             print("Tidak ada")
             

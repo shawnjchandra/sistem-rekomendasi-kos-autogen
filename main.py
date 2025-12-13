@@ -1,10 +1,7 @@
-import inspect
-import json
 import os 
-from autogen import AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager
-import config.schema as schema
-from dotenv import load_dotenv
 import utils.dataset as ds
+from dotenv import load_dotenv
+from autogen import AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager
 
 # Load semua variable .env
 load_dotenv()
@@ -12,21 +9,6 @@ load_dotenv()
 
 # #Inisialisasi Objek dan Variabel
 dataset = ds.DatasetAgent()
-
-config_list = [{
-    "model" : os.environ.get("LOCAL_LLAMA_MODEL"),
-    "base_url": os.environ.get("LOCAL_LLAMA_URL"),
-    "api_base": os.environ.get("LOCAL_LLAMA_URL"),
-    "api_key" : os.environ.get("LOCAL_LLAMA_API_KEY"),
-}]
-llm_config= {
-    "config_list" : config_list,
-    "temperature":0,
-    "cache_seed":42,
-    "functions" : [schema.dataset_schema],
-}
-
-
 
 config_list = [{
     "model": os.environ.get("LOCAL_LLAMA_MODEL"), 
@@ -41,23 +23,13 @@ llm_config = {
     "seed": 42,
 }
 
-llm_config_interpreter = {
-    "config_list": config_list,
-    "temperature": 0,
-    "seed": 42,
-    "functions": [schema.dataset_schema] 
-}
-
-
-# 1. User Proxy 
+# User Proxy 
 user_proxy = UserProxyAgent(
     name="user",
     human_input_mode="TERMINATE", 
-    code_execution_config={"work_dir": "coding"},
-    function_map={"filter_data": dataset.search_program_wrapper}
 )
 
-# 2. Profile Interpreter
+# Profile Interpreter
 profile_interpreter = AssistantAgent(
     name="profile_interpreter",
     system_message="""Kamu adalah penafsir profil. 
@@ -73,14 +45,14 @@ profile_interpreter = AssistantAgent(
 # 3. Program Data Specialist 
 program_data_agent = UserProxyAgent(
     name="program_data_agent",
-    human_input_mode="NEVER", # otomatis jalan
+    human_input_mode="NEVER", # otomatis jalan tanpa perlu perlu input manusia
     max_consecutive_auto_reply=0, # Diam setelah eksekusi
     code_execution_config={"work_dir": "coding"},
     function_map={
         "filter_data": dataset.search_program_wrapper
     }
 )
-# 4. Fit Evaluator
+# Fit Evaluator
 fit_evaluator = AssistantAgent(
     name="fit_evaluator",
     system_message="""Kamu adalah penilai kecocokan.
@@ -92,7 +64,7 @@ fit_evaluator = AssistantAgent(
     llm_config=llm_config,
 )
 
-# 5. Recommendation Writer
+# Recommendation Writer
 study_recommendation_writer_agent = AssistantAgent(
     name="recommendation_writer",
     system_message="""Kamu adalah konsultan pendidikan.
@@ -101,21 +73,23 @@ study_recommendation_writer_agent = AssistantAgent(
     llm_config=llm_config,
 )
 
-# --- 4. GROUP CHAT ---
+# GROUP CHAT 
 groupchat = GroupChat(
-    agents=[user_proxy, profile_interpreter, program_data_agent, fit_evaluator, study_recommendation_writer_agent],
-    messages=[],
-    max_round=20
-)
+        agents=[user_proxy, profile_interpreter, program_data_agent, fit_evaluator, study_recommendation_writer_agent],
+        messages=[],
+        max_round=5
+    )
 
-manager = GroupChatManager(groupchat=groupchat, llm_config=llm_config)
+manager = GroupChatManager(
+        groupchat=groupchat, 
+        llm_config=llm_config
+    )
 
 if __name__ == "__main__":
     user_story = """
     Halo, saya Rina. Saya lulusan Informatika IPK 3.6, memiliki pengalaman riset tentang AI dan 1 tahun kerja di perusahaan data. Saya ingin studi S2 di bidang machine learning.
     """
 
-    print("Running system with pyautogen 0.1.14...")
     user_proxy.initiate_chat(
         manager,
         message=user_story
